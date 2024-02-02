@@ -8,7 +8,7 @@ import wx
 class ShowValuesAction(pcbnew.ActionPlugin):
     def defaults(self):
         self.name = "Show Values"
-        self.category = "Cleanup"
+        self.category = "Modify PCB"
         self.description = "Hide the reference Designators on the silkscreen, show values, if designator is hidden - reverse"
         self.icon_file_name = os.path.join(
             os.path.dirname(__file__), "./resources/show-value.png")
